@@ -1,0 +1,139 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:ital,wght@0,300;1,800&family=Quicksand:wght@700&display=swap');
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background-color:gray;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  body{
+    min-height: 100vh;
+   
+    background: rgb(35, 52, 73);
+    color: black;
+    background: rgb(251,63,223);
+    background: radial-gradient(circle, rgba(251,63,223,0.39950980392156865) 47%, rgba(139,252,70,1) 100%);}
+
+
+
+
+
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;                                   
+    width: 100%;
+    padding:20px 10px;
+    background: black; opacity: 0.7; filter: alpha(opacity=50);;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    z-index: 100;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+
+  .navbar a{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 45px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  .navbar a::before{
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: white;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  .navbar a:hover::before{
+    width: 100%;
+  }
+
+  
+ 
